@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Token</title>
+<style>
+table, th, td {
+	border: 3px solid black;
+	border-collapse:collapse;
+	padding: 25px;
+}
+
+th {
+	background-color: skyblue;
+	color: Black;
+}
+
+</style>
+</head>
+<body onload="login()">				<!--  onload event  -->
+	<h2>Token Generator</h2>
+	<p align="right">
+  		<button type="submit" onclick="logout()">LOGOUT</button> 
+	</p>
+	<script type="text/javascript" src="../js/func.js"></script>
+	
+	<table id="Table">
+		<thead>
+			<tr>
+				<th>Customer</th>
+				<th>Token Number</th>
+			</tr>
+		</thead>
+	</table>
+	<input id="inputbox1" type="name"></input>
+	<button id = "btn_generate" type="submit" onclick="tokenGenerator()">Generate</button>
+	
+</body>
+</html>
